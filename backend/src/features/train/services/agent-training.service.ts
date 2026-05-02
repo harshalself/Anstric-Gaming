@@ -3,6 +3,7 @@ import HttpException from "../../../exceptions/HttpException";
 import { trainingQueue } from "../queue";
 import { logger } from "../../../utils/logger";
 import VectorService from "../../vector/services/vector.service";
+import agentCacheService from "../../agent/services/agent-cache.service";
 
 export class AgentTrainingService {
   /**
@@ -481,16 +482,26 @@ export class AgentTrainingService {
       // Step 1: Clean up existing vectors
       await this.cleanupAgentVectors(agentId, userId);
 
-      // Step 2: Reset source embedding status so they can be re-embedded
-      await knex("sources")
-        .where({ agent_id: agentId, is_deleted: false })
-        .update({
-          is_embedded: false,
+      // Step 2: Transactionally reset source embedding and agent status
+      await knex.transaction(async (trx) => {
+        await trx("sources")
+          .where({ agent_id: agentId, is_deleted: false })
+          .update({
+            is_embedded: false,
+            updated_at: new Date(),
+          });
+
+        await trx("agents").where("id", agentId).update({
+          training_status: "idle",
+          training_progress: 0,
+          training_error: null,
+          embedded_sources_count: 0,
           updated_at: new Date(),
         });
+      });
 
-      // Step 3: Reset agent training status
-      await this.updateAgentTrainingStatus(agentId, "idle", 0, null, 0);
+      // Step 3: Clear agent cache
+      await agentCacheService.invalidateAgent(agentId, userId);
 
       // Step 4: Start new training
       const result = await this.trainAgent(agentId, userId);

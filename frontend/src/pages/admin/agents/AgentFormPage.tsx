@@ -176,10 +176,10 @@ const AgentFormPage: React.FC = () => {
                     if (status.status === 'completed') toast.success('Agent training completed!');
                     else toast.error('Training failed. Check error details.');
                 }
-            } catch {
-                clearInterval(pollingRef.current!);
-                pollingRef.current = null;
-                setIsTraining(false);
+            } catch (error) {
+                console.error('Polling error (ignoring to retry later):', error);
+                // Do not clear the interval on network failures here, 
+                // so the user can recover if it's transient
             }
         }, 3000);
     };

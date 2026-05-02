@@ -1,0 +1,301 @@
+🧠 Anstric Games Private Limited – Q&A Dataset (100)
+
+Q1: What is Anstric Games Private Limited?
+A1: Anstric Games Private Limited is a technology and game development company focused on building innovative digital products and games.
+
+Q2: Who is the founder of Anstric Games?
+A2: The founder of Anstric Games Private Limited is Aditya More.
+
+Q3: When was Anstric Games established?
+A3: It was established in 2024 as a Limited Liability Partnership (LLP).
+
+Q4: When was it converted into a Private Limited company?
+A4: It was converted into a Private Limited company in 2025.
+
+Q5: What was the original structure of the company?
+A5: The company was initially registered as an LLP.
+
+Q6: What does Anstric Games primarily focus on?
+A6: It focuses on game development, software solutions, and digital innovation.
+
+Q7: What types of games does Anstric Games build?
+A7: The company builds mobile, web, and PC games including casual and story-driven games.
+
+Q8: What is Border Game?
+A8: Border Game is a game developed by Anstric Games that focuses on strategic or engaging gameplay experiences.
+
+Q9: What is Anstric IDE?
+A9: Anstric IDE is a development environment designed to simplify coding and project creation for developers and students.
+
+Q10: What is unique about Anstric IDE?
+A10: It integrates development tools with features like exam mode and simplified project setup.
+
+Q11: What platforms are supported by Anstric Games?
+A11: Android, iOS, web, and desktop platforms.
+
+Q12: What technologies are used?
+A12: Unity, React, Node.js, PHP, and modern frameworks.
+
+Q13: What is the vision of Anstric Games?
+A13: To build globally impactful digital products and games.
+
+Q14: What is the mission of Anstric Games?
+A14: To deliver high-quality and innovative digital experiences.
+
+Q15: Does Anstric Games provide services?
+A15: Yes, including game development and software solutions.
+
+Q16: What is UI/UX design?
+A16: Designing user-friendly and visually appealing interfaces.
+
+Q17: What is cross-platform development?
+A17: Building apps that run on multiple platforms.
+
+Q18: What is a game engine?
+A18: Software used to build games, like Unity.
+
+Q19: What is agile development?
+A19: Iterative and flexible development methodology.
+
+Q20: What is a digital product?
+A20: Software like apps, games, or platforms.
+
+Q21: What is exam mode in Anstric IDE?
+A21: A feature that restricts system access for secure exams.
+
+Q22: Why is exam mode important?
+A22: It ensures fairness during assessments.
+
+Q23: What is a quiz-based game?
+A23: A game where users answer questions interactively.
+
+Q24: What is user engagement?
+A24: Interaction level of users with a product.
+
+Q25: What is backend development?
+A25: Server-side logic and database handling.
+
+Q26: What is frontend development?
+A26: User interface and experience creation.
+
+Q27: What is API integration?
+A27: Connecting systems for data exchange.
+
+Q28: What is cloud integration?
+A28: Using cloud services for scalability.
+
+Q29: What is debugging?
+A29: Fixing errors in code.
+
+Q30: What is version control?
+A30: Managing code changes using tools like Git.
+
+Q31: What is responsive design?
+A31: Adapting UI for all screen sizes.
+
+Q32: What is scalability?
+A32: Ability to handle growth in users/data.
+
+Q33: What is multiplayer system?
+A33: Multiple users playing together.
+
+Q34: What is real-time system?
+A34: Instant data processing.
+
+Q35: What is deployment?
+A35: Releasing software to users.
+
+Q36: What is maintenance?
+A36: Updating software after release.
+
+Q37: What is monetization in games?
+A37: Earning revenue via ads or purchases.
+
+Q38: What is storytelling in games?
+A38: Narrative elements in gameplay.
+
+Q39: What is a 3D game?
+A39: Game with three-dimensional graphics.
+
+Q40: What is a white-label solution?
+A40: Rebrandable product for other businesses.
+
+Q41: What is project-based learning?
+A41: Learning through real projects.
+
+Q42: Does Anstric Games offer internships?
+A42: Yes, for practical learning.
+
+Q43: What do interns learn?
+A43: Coding, design, teamwork, and real-world skills.
+
+Q44: What is startup culture?
+A44: Fast-paced, innovative work environment.
+
+Q45: What is innovation at Anstric Games?
+A45: Creating new ideas and solutions.
+
+Q46: What is performance optimization?
+A46: Improving speed and efficiency.
+
+Q47: What is data handling?
+A47: Managing user and system data.
+
+Q48: What is security in apps?
+A48: Protecting data and systems.
+
+Q49: What is system architecture?
+A49: Structure of software components.
+
+Q50: What is testing?
+A50: Ensuring software quality.
+
+Q51: What is a development lifecycle?
+A51: Steps from idea to launch.
+
+Q52: What is continuous improvement?
+A52: Regular updates and enhancements.
+
+Q53: What is product design?
+A53: Planning features and UI.
+
+Q54: What is user feedback?
+A54: Input from users for improvements.
+
+Q55: What is digital transformation?
+A55: Using tech to improve processes.
+
+Q56: What is automation?
+A56: Reducing manual work using systems.
+
+Q57: What is analytics?
+A57: Studying data for insights.
+
+Q58: What is a tech stack?
+A58: Combination of technologies used.
+
+Q59: What is coding standard?
+A59: Guidelines for writing clean code.
+
+Q60: What is documentation?
+A60: Written explanation of systems.
+
+Q61: What is a feature in software?
+A61: A function or capability.
+
+Q62: What is UI component?
+A62: Reusable interface element.
+
+Q63: What is a framework?
+A63: Pre-built structure for development.
+
+Q64: What is open-source?
+A64: Publicly accessible code.
+
+Q65: What is proprietary software?
+A65: Owned and restricted software.
+
+Q66: What is localization in games?
+A66: Adapting games for different regions.
+
+Q67: What is accessibility?
+A67: Making apps usable for all users.
+
+Q68: What is engagement loop?
+A68: Repeated user interaction cycle.
+
+Q69: What is game mechanics?
+A69: Rules and systems in gameplay.
+
+Q70: What is leaderboard?
+A70: Ranking system for players.
+
+Q71: What is a game update?
+A71: New features or fixes added later.
+
+Q72: What is patching?
+A72: Fixing bugs post-release.
+
+Q73: What is beta testing?
+A73: Testing before full release.
+
+Q74: What is alpha version?
+A74: Early development version.
+
+Q75: What is MVP?
+A75: Minimum viable product.
+
+Q76: What is startup scaling?
+A76: Growing operations efficiently.
+
+Q77: What is digital branding?
+A77: Online identity of a company.
+
+Q78: What is content strategy?
+A78: Planning digital content.
+
+Q79: What is SEO?
+A79: Search engine optimization.
+
+Q80: What is app performance?
+A80: Speed and responsiveness of an app.
+
+Q81: What is code optimization?
+A81: Improving code efficiency.
+
+Q82: What is modular design?
+A82: Breaking systems into parts.
+
+Q83: What is dependency?
+A83: External library or module.
+
+Q84: What is integration testing?
+A84: Testing combined modules.
+
+Q85: What is unit testing?
+A85: Testing individual components.
+
+Q86: What is cloud hosting?
+A86: Hosting apps on cloud servers.
+
+Q87: What is database?
+A87: Structured data storage.
+
+Q88: What is SQL?
+A88: Language for managing databases.
+
+Q89: What is NoSQL?
+A89: Non-relational database system.
+
+Q90: What is API?
+A90: Interface for communication between systems.
+
+Q91: What is Anstric Games’ long-term goal?
+A91: To expand globally with innovative products.
+
+Q92: What is Anstric Games’ strength?
+A92: Innovation, design, and execution.
+
+Q93: What is the role of creativity?
+A93: Driving unique product ideas.
+
+Q94: What is teamwork in projects?
+A94: Collaboration for better results.
+
+Q95: What is leadership in startups?
+A95: Guiding vision and execution.
+
+Q96: What is product-market fit?
+A96: Matching product with user needs.
+
+Q97: What is innovation culture?
+A97: Encouraging new ideas.
+
+Q98: What is digital ecosystem?
+A98: Connected digital services.
+
+Q99: What is Anstric Games known for?
+A99: Creative digital products and modern development.
+
+Q100: Why choose Anstric Games?
+A100: For innovative, scalable, and high-quality digital solutions.

@@ -260,12 +260,12 @@ const AskBrain: React.FC = () => {
     };
 
     const suggestedQuestions = [
-        "What is our Git branching strategy?",
-        "How many PTO days do employees get?",
-        "What is the policy for working late meals?",
-        "How do I request an ergonomic assessment?",
-        "What is our core tech stack?",
-        "When are the production deployment windows?",
+        "What is Anstric Games Private Limited?",
+        "What types of games does Anstric Games build?",
+        "What is Anstric IDE?",
+        "What technologies are used?",
+        "What is Border Game?",
+        "What is the vision of Anstric Games?",
     ];
 
     // Loading state
