@@ -4,7 +4,7 @@ import { DashboardHeader } from '@/components/dashboard/DashboardHeader';
 import { useAuth } from '@/contexts/AuthContext';
 import agentService from '@/services/agentService';
 import documentService, { Document } from '@/services/documentService';
-import { CreateAgentDto, UpdateAgentDto, TrainingStatusResponse, SIEMENS_DEFAULT_PROMPT } from '@/types/agent.types';
+import { CreateAgentDto, UpdateAgentDto, TrainingStatusResponse, ANSTRIC_GAMING_DEFAULT_PROMPT } from '@/types/agent.types';
 import { ArrowLeft, Loader2, Bot, BookOpen, Settings } from 'lucide-react';
 import { toast } from 'sonner';
 
@@ -22,7 +22,7 @@ const DEFAULT_FORM_DATA: FormData = {
     provider: 'groq',
     model: '',
     temperature: 0.7,
-    system_prompt: SIEMENS_DEFAULT_PROMPT,
+    system_prompt: ANSTRIC_GAMING_DEFAULT_PROMPT,
     is_active: true,
 };
 

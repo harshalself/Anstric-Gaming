@@ -26,7 +26,7 @@ const SignIn = () => {
 
             toast({
                 title: "Login successful!",
-                description: "Welcome back to Siemens",
+                description: "Welcome back to Anstric Gaming",
             });
 
             // Redirect based on role
@@ -55,7 +55,7 @@ const SignIn = () => {
             avatarSrc: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop',
             name: 'Alex Morgan',
             handle: '@alexm',
-            text: 'Siemens transformed how our team shares knowledge!',
+            text: 'Anstric Gaming transformed how our team shares knowledge!',
         },
         {
             avatarSrc: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop',
@@ -81,7 +81,7 @@ const SignIn = () => {
                     <span className="font-light text-foreground tracking-tighter">Welcome Back</span>
                 </h1>
                 <p className="animate-element animate-delay-200 text-muted-foreground">
-                    Access your account and continue your journey with Siemens
+                    Access your account and continue your journey with Anstric Gaming
                 </p>
 
                 <form className="space-y-5" onSubmit={handleSignIn}>
@@ -122,7 +122,7 @@ const SignIn = () => {
                 </form>
 
                 <p className="animate-element animate-delay-700 text-center text-sm text-muted-foreground">
-                    New to Siemens?{' '}
+                    New to Anstric Gaming?{' '}
                     <button
                         onClick={() => navigate('/signup')}
                         className="text-accent hover:underline transition-colors"

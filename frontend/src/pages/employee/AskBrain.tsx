@@ -272,7 +272,7 @@ const AskBrain: React.FC = () => {
     if (isLoading) {
         return (
             <div className="min-h-screen flex flex-col">
-                <DashboardHeader title="Ask Siemens" user={user} />
+                <DashboardHeader title="Ask Anstric Gaming" user={user} />
                 <div className="flex-1 flex items-center justify-center">
                     <div className="text-center">
                         <Loader2 className="w-8 h-8 animate-spin text-primary mx-auto mb-4" />
@@ -287,7 +287,7 @@ const AskBrain: React.FC = () => {
     if (agentNotConfigured) {
         return (
             <div className="min-h-screen flex flex-col">
-                <DashboardHeader title="Ask Siemens" user={user} />
+                <DashboardHeader title="Ask Anstric Gaming" user={user} />
                 <div className="flex-1 flex items-center justify-center">
                     <div className="text-center max-w-md px-6">
                         <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-amber-500/20 to-orange-500/20 mx-auto flex items-center justify-center mb-6">
@@ -317,7 +317,7 @@ const AskBrain: React.FC = () => {
     if (error && sessions.length === 0) {
         return (
             <div className="min-h-screen flex flex-col">
-                <DashboardHeader title="Ask Siemens" user={user} />
+                <DashboardHeader title="Ask Anstric Gaming" user={user} />
                 <div className="flex-1 flex items-center justify-center">
                     <div className="text-center max-w-md">
                         <AlertCircle className="w-12 h-12 text-destructive mx-auto mb-4" />
@@ -337,7 +337,7 @@ const AskBrain: React.FC = () => {
 
     return (
         <div className="h-screen flex flex-col overflow-hidden bg-background">
-            <DashboardHeader title="Ask Siemens" user={user} />
+            <DashboardHeader title="Ask Anstric Gaming" user={user} />
 
             <div className="flex-1 flex overflow-hidden">
                 {/* Conversation Sidebar */}

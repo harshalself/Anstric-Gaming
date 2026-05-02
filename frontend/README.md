@@ -1,4 +1,4 @@
-# Siemens - Frontend
+# Anstric Gaming - Frontend
 
 AI-Powered Internal Knowledge Platform for seamless company knowledge management.
 

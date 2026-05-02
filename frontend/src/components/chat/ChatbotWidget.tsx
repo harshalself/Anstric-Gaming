@@ -177,7 +177,7 @@ export const ChatbotWidget: React.FC = () => {
                         <div className="p-1.5 rounded-lg bg-white/20">
                             <Brain className="w-4 h-4" />
                         </div>
-                        <span className="font-semibold">Chat with Siemens</span>
+                        <span className="font-semibold">Chat with Anstric Gaming</span>
                     </div>
                     <div className="flex items-center gap-1">
                         <button
@@ -195,7 +195,7 @@ export const ChatbotWidget: React.FC = () => {
                     {isLoading ? (
                         <div className="flex flex-col items-center justify-center h-full text-muted-foreground gap-2">
                             <Loader2 className="w-6 h-6 animate-spin" />
-                            <span className="text-sm">Connecting to Siemens...</span>
+                            <span className="text-sm">Connecting to Anstric Gaming...</span>
                         </div>
                     ) : messages.length === 0 ? (
                         <div className="flex flex-col items-center justify-center h-full text-center p-4">

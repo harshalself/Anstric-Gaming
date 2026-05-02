@@ -73,7 +73,7 @@ export const CTASection = () => {
               transition={{ duration: 0.5, delay: 0.4 }}
               className="text-lg text-white/80 mb-8 max-w-2xl mx-auto"
             >
-              Join 500+ companies already using Siemens to make their teams more productive.
+              Join 500+ companies already using Anstric Gaming to make their teams more productive.
             </motion.p>
 
             {/* Email Form */}

@@ -180,7 +180,7 @@ export default function InvitationSignUp() {
                     </div>
                     <CardTitle>Complete Your Registration</CardTitle>
                     <CardDescription>
-                        You've been invited to join Siemens
+                        You've been invited to join Anstric Gaming
                     </CardDescription>
                 </CardHeader>
 

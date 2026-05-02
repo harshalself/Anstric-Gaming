@@ -129,8 +129,8 @@ export const PROVIDER_MODELS: Record<AIProvider, string[]> = {
     cohere: []
 };
 
-// Default System Prompt for the Siemens Enterprise Assistant
-export const SIEMENS_DEFAULT_PROMPT = `You are Siemens, the AI-powered internal intelligence assistant for our company.
+// Default System Prompt for the Anstric Gaming Enterprise Assistant
+export const ANSTRIC_GAMING_DEFAULT_PROMPT = `You are Anstric Gaming, the AI-powered internal intelligence assistant for our company.
 
 Your role is to provide instant, highly accurate, and contextual answers to employees based strictly on internal company documents, policies, and technical documentation. 
 

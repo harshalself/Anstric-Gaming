@@ -5,7 +5,7 @@ export const mockUsers: User[] = [
     {
         id: '1',
         name: 'Admin User',
-        email: 'admin@siemens.com',
+        email: 'admin@anstricgaming.com',
         role: 'admin',
         avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop',
         department: 'Management',
@@ -16,7 +16,7 @@ export const mockUsers: User[] = [
     {
         id: '2',
         name: 'Sarah Johnson',
-        email: 'sarah.j@siemens.com',
+        email: 'sarah.j@anstricgaming.com',
         role: 'employee',
         avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop',
         department: 'Engineering',
@@ -27,7 +27,7 @@ export const mockUsers: User[] = [
     {
         id: '3',
         name: 'Michael Chen',
-        email: 'michael.c@siemens.com',
+        email: 'michael.c@anstricgaming.com',
         role: 'employee',
         avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop',
         department: 'Engineering',
@@ -38,7 +38,7 @@ export const mockUsers: User[] = [
     {
         id: '4',
         name: 'Emily Davis',
-        email: 'emily.d@siemens.com',
+        email: 'emily.d@anstricgaming.com',
         role: 'employee',
         avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop',
         department: 'HR',
@@ -49,7 +49,7 @@ export const mockUsers: User[] = [
     {
         id: '5',
         name: 'David Park',
-        email: 'david.p@siemens.com',
+        email: 'david.p@anstricgaming.com',
         role: 'employee',
         avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop',
         department: 'Marketing',
@@ -60,7 +60,7 @@ export const mockUsers: User[] = [
     {
         id: '6',
         name: 'Lisa Anderson',
-        email: 'lisa.a@siemens.com',
+        email: 'lisa.a@anstricgaming.com',
         role: 'employee',
         avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop',
         department: 'Engineering',

@@ -115,7 +115,7 @@ export const HeroSection = () => {
               </div>
               <div className="text-left">
                 <p className="font-semibold">500+ Companies</p>
-                <p className="text-sm text-muted-foreground">Trust Siemens for their knowledge</p>
+                <p className="text-sm text-muted-foreground">Trust Anstric Gaming for their knowledge</p>
               </div>
             </motion.div>
           </div>
@@ -135,7 +135,7 @@ export const HeroSection = () => {
                   <Sparkles className="w-6 h-6 text-primary-foreground" />
                 </div>
                 <div>
-                  <h3 className="font-semibold">Siemens Assistant</h3>
+                  <h3 className="font-semibold">Anstric Gaming Assistant</h3>
                   <p className="text-sm text-muted-foreground">Always ready to help</p>
                 </div>
                 <div className="ml-auto flex items-center gap-1">

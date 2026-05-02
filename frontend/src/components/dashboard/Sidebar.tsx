@@ -81,7 +81,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ user, onLogout }) => {
                         <Brain className="w-7 h-7 text-primary-foreground" />
                     </div>
                     <div>
-                        <h1 className="text-xl font-bold text-primary">Siemens</h1>
+                        <h1 className="text-xl font-bold text-primary">Anstric Gaming</h1>
                         <p className="text-xs text-muted-foreground">{dashboardLabel}</p>
                     </div>
                 </Link>

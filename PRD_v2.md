@@ -1,5 +1,5 @@
 # 📋 Product Requirements Document (PRD) v2.0
-# Siemens - AI-Powered Internal Knowledge Platform
+# Anstric Gaming - AI-Powered Internal Knowledge Platform
 
 **Document Version:** 2.0  
 **Last Updated:** January 16, 2026  
@@ -26,7 +26,7 @@
 
 ## Executive Summary
 
-**Siemens** is an AI-powered internal knowledge platform designed as a college project to demonstrate RAG (Retrieval-Augmented Generation) technology in a practical business context. It helps startup employees get instant answers to company-related questions by leveraging AI to search through uploaded company documents.
+**Anstric Gaming** is an AI-powered internal knowledge platform designed as a college project to demonstrate RAG (Retrieval-Augmented Generation) technology in a practical business context. It helps startup employees get instant answers to company-related questions by leveraging AI to search through uploaded company documents.
 
 ### Core Value Proposition
 
@@ -68,9 +68,9 @@ This is a **college project** designed to demonstrate:
 
 ## Product Overview
 
-### What is Siemens?
+### What is Anstric Gaming?
 
-Siemens is a web-based chat interface where employees can ask questions about company policies, processes, and technical documentation. The AI retrieves relevant information from uploaded documents and generates contextual answers.
+Anstric Gaming is a web-based chat interface where employees can ask questions about company policies, processes, and technical documentation. The AI retrieves relevant information from uploaded documents and generates contextual answers.
 
 ### How It Works
 
@@ -154,7 +154,7 @@ Admin sees analytics and improves knowledge base
 - Doesn't know where to find specific information
 - Hesitant to ask "basic" questions repeatedly
 
-**How Siemens Helps:**
+**How Anstric Gaming Helps:**
 - Guided onboarding with curated materials
 - Instant answers to policy and technical questions
 - No judgment - can ask the same thing multiple times
@@ -197,7 +197,7 @@ Admin sees analytics and improves knowledge base
 - No visibility into what employees are confused about
 - New hires take long to become productive
 
-**How Siemens Helps:**
+**How Anstric Gaming Helps:**
 - Centralized knowledge base accessible via AI chat
 - Analytics show most asked questions (identifying gaps)
 - Automated onboarding reduces manual intervention
@@ -573,7 +573,7 @@ AI: "To apply for leave, go to the HR portal..."
    - Get last 5 messages for context
    ↓
 6. Construct Prompt
-   - System prompt: "You are Siemens..."
+   - System prompt: "You are Anstric Gaming..."
    - Context chunks from Pinecone
    - Conversation history
    - User question
@@ -827,7 +827,7 @@ AI: "To apply for leave, go to the HR portal..."
 
 ### Architecture Overview
 
-Siemens follows a **three-tier architecture**:
+Anstric Gaming follows a **three-tier architecture**:
 
 ```
 ┌─────────────────────────────────────────────────┐
@@ -1162,7 +1162,7 @@ Siemens follows a **three-tier architecture**:
 
 ### Document Processing Implementation
 
-**Existing Backend Note:** The backend already has document processing logic from a previous chatbot project. This will be adapted for Siemens.
+**Existing Backend Note:** The backend already has document processing logic from a previous chatbot project. This will be adapted for Anstric Gaming.
 
 **Processing Flow:**
 
@@ -1251,7 +1251,7 @@ Siemens follows a **three-tier architecture**:
 5. **Construct Prompt**
    ```javascript
    const prompt = `
-   You are Siemens, an AI assistant for [Company Name].
+   You are Anstric Gaming, an AI assistant for [Company Name].
    Answer questions using ONLY the provided documents.
    If information is not in the documents, say so.
    
