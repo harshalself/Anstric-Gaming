@@ -158,7 +158,7 @@ const AgentListPage: React.FC = () => {
         });
     };
 
-    const canCreateAgent = agents.length === 0;
+    const canCreateAgent = true;
 
     // Loading state
     if (isLoading) {
@@ -207,24 +207,11 @@ const AgentListPage: React.FC = () => {
                     <div>
                         <h2 className="text-2xl font-bold text-foreground">AI Agents</h2>
                         <p className="text-muted-foreground mt-1">
-                            Create and manage your AI assistants
+                            Manage your AI assistants
                         </p>
                     </div>
 
-                    {canCreateAgent ? (
-                        <button
-                            onClick={handleCreateNew}
-                            className="flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors"
-                        >
-                            <Plus className="w-5 h-5" />
-                            New Agent
-                        </button>
-                    ) : (
-                        <div className="flex items-center gap-2 px-4 py-2 bg-secondary/50 text-muted-foreground rounded-lg cursor-not-allowed border border-border" title="You can only create one agent">
-                            <Info className="w-5 h-5" />
-                            <span>Limit Reached (1/1)</span>
-                        </div>
-                    )}
+                    {/* Create New Agent button removed as per user request */}
                 </div>
 
                 {/* Empty State */}
